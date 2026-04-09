@@ -1,0 +1,101 @@
+16:24:13:065  INFO 18008 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.30 on LuciFer with PID 18008 (D:\microService\hmall\user-service\target\classes started by 烽 in D:\microService\hmall)
+16:24:13:067 DEBUG 18008 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:24:13:067  INFO 18008 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
+16:24:13:735  INFO 18008 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:24:13:737  INFO 18008 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:24:13:759  INFO 18008 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+16:24:13:927  INFO 18008 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b1b88969-3304-32c9-a6ad-824af07e2642
+16:24:14:226  INFO 18008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+16:24:14:232  INFO 18008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:24:14:232  INFO 18008 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:24:14:369  INFO 18008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:24:14:369  INFO 18008 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1267 ms
+16:24:17:560  INFO 18008 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:24:18:904  INFO 18008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+16:24:19:884  INFO 18008 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:24:19:886  INFO 18008 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:24:19:904  INFO 18008 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:24:19:982  INFO 18008 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 9.446 seconds (JVM running for 10.934)
+16:29:39:488  INFO 31980 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.30 on LuciFer with PID 31980 (D:\microService\hmall\user-service\target\classes started by 烽 in D:\microService\hmall)
+16:29:39:489 DEBUG 31980 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:29:39:489  INFO 31980 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
+16:29:40:167  INFO 31980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:29:40:169  INFO 31980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:29:40:192  INFO 31980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+16:29:40:363  INFO 31980 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b1b88969-3304-32c9-a6ad-824af07e2642
+16:29:40:667  INFO 31980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+16:29:40:674  INFO 31980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:29:40:674  INFO 31980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:29:40:813  INFO 31980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:29:40:813  INFO 31980 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1286 ms
+16:29:44:031  INFO 31980 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:29:45:384  INFO 31980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+16:29:46:364  INFO 31980 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:29:46:366  INFO 31980 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:29:46:384  INFO 31980 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:29:46:461  INFO 31980 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 9.574 seconds (JVM running for 11.05)
+16:31:26:880  INFO 31844 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.30 on LuciFer with PID 31844 (D:\microService\hmall\user-service\target\classes started by 烽 in D:\microService\hmall)
+16:31:26:882 DEBUG 31844 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:31:26:882  INFO 31844 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
+16:31:27:575  INFO 31844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:31:27:577  INFO 31844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:31:27:598  INFO 31844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+16:31:27:772  INFO 31844 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f5fdc83d-2f4e-35e3-922b-814325ddb334
+16:31:28:076  INFO 31844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+16:31:28:083  INFO 31844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:31:28:083  INFO 31844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:31:28:222  INFO 31844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:31:28:223  INFO 31844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1301 ms
+16:31:32:715  INFO 31844 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:31:34:091  INFO 31844 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 415b1657-58c2-44d8-996f-10e0aefe0a32
+16:31:34:125  INFO 31844 --- [main] org.reflections.Reflections              : Reflections took 17 ms to scan 1 urls, producing 3 keys and 6 values 
+16:31:34:143  INFO 31844 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 4 keys and 9 values 
+16:31:34:153  INFO 31844 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 3 keys and 10 values 
+16:31:34:155  WARN 31844 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+16:31:34:162  INFO 31844 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+16:31:34:168  INFO 31844 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 1 keys and 7 values 
+16:31:34:177  INFO 31844 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 2 keys and 8 values 
+16:31:34:179  WARN 31844 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+16:31:34:181  INFO 31844 --- [main] com.alibaba.nacos.common.remote.client   : [415b1657-58c2-44d8-996f-10e0aefe0a32] RpcClient init label, labels = {module=naming, source=sdk}
+16:31:34:183  INFO 31844 --- [main] com.alibaba.nacos.common.remote.client   : [415b1657-58c2-44d8-996f-10e0aefe0a32] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+16:31:34:183  INFO 31844 --- [main] com.alibaba.nacos.common.remote.client   : [415b1657-58c2-44d8-996f-10e0aefe0a32] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+16:31:34:184  INFO 31844 --- [main] com.alibaba.nacos.common.remote.client   : [415b1657-58c2-44d8-996f-10e0aefe0a32] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+16:31:34:185  INFO 31844 --- [main] com.alibaba.nacos.common.remote.client   : [415b1657-58c2-44d8-996f-10e0aefe0a32] Try to connect to server on start up, server: {serverIp = '47.93.37.97', server main port = 8848}
+16:31:37:178  INFO 31844 --- [main] com.alibaba.nacos.common.remote.client   : [415b1657-58c2-44d8-996f-10e0aefe0a32] Success to connect to server [47.93.37.97:8848] on start up, connectionId = 1775723498165_61.55.53.240_2848
+16:31:37:178  INFO 31844 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [415b1657-58c2-44d8-996f-10e0aefe0a32] Notify connected event to listeners.
+16:31:37:179  INFO 31844 --- [main] com.alibaba.nacos.common.remote.client   : [415b1657-58c2-44d8-996f-10e0aefe0a32] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+16:31:37:180  INFO 31844 --- [main] com.alibaba.nacos.common.remote.client   : [415b1657-58c2-44d8-996f-10e0aefe0a32] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1093/0x0000000840709040
+16:31:37:242  INFO 31844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+16:31:37:268  INFO 31844 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.217.1:8084 register finished
+16:31:37:727  INFO 31844 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [415b1657-58c2-44d8-996f-10e0aefe0a32] Receive server push request, request = NotifySubscriberRequest, requestId = 64
+16:31:37:730  INFO 31844 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [415b1657-58c2-44d8-996f-10e0aefe0a32] Ack server push request, request = NotifySubscriberRequest, requestId = 64
+16:31:38:250  INFO 31844 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:31:38:252  INFO 31844 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:31:38:270  INFO 31844 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:31:38:335  INFO 31844 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 14.07 seconds (JVM running for 15.628)
+16:31:48:941  INFO 31844 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:31:48:942  INFO 31844 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+16:31:48:945  INFO 31844 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+16:31:49:126  INFO 31844 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+16:31:49:686  INFO 31844 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+16:31:49:694 DEBUG 31844 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+16:31:49:719 DEBUG 31844 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+16:31:49:768 DEBUG 31844 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+16:33:01:946 DEBUG 31844 --- [http-nio-8084-exec-4] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+16:33:01:946 DEBUG 31844 --- [http-nio-8084-exec-4] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+16:33:01:972 DEBUG 31844 --- [http-nio-8084-exec-4] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+16:33:19:624 DEBUG 31844 --- [http-nio-8084-exec-6] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+16:33:19:625 DEBUG 31844 --- [http-nio-8084-exec-6] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+16:33:19:648 DEBUG 31844 --- [http-nio-8084-exec-6] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+16:36:56:461  WARN 31844 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+16:36:56:461  WARN 31844 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+16:36:56:463  WARN 31844 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+16:36:56:464  WARN 31844 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+16:36:57:572  INFO 31844 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+16:36:57:595  INFO 31844 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+16:36:57:930  INFO 31844 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+16:36:57:930  INFO 31844 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@415677fb[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+16:36:57:930  INFO 31844 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1775723498165_61.55.53.240_2848
+16:36:57:939  INFO 31844 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@6cba5711[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 82]
+16:36:57:945  INFO 31844 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+16:37:07:955  INFO 31844 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
