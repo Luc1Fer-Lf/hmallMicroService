@@ -36,8 +36,6 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements ICartService {
 
-//    private final RestTemplate restTemplate;
-//    private final DiscoveryClient discoveryClient;// 服务发现
     private final ItemClient itemClient;
 
     @Override
@@ -66,7 +64,7 @@ public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements IC
     @Override
     public List<CartVO> queryMyCarts() {
         // 1.查询我的购物车列表
-        List<Cart> carts = lambdaQuery().eq(Cart::getUserId, 1L/* TODO UserContext.getUser()*/).list();
+        List<Cart> carts = lambdaQuery().eq(Cart::getUserId, UserContext.getUser()).list();
         if (CollUtils.isEmpty(carts)) {
             return CollUtils.emptyList();
         }
@@ -82,30 +80,9 @@ public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements IC
     }
 
     private void handleCartItems(List<CartVO> vos) {
-        // TODO 1.获取商品id
+        // 1.获取商品id
         Set<Long> itemIds = vos.stream().map(CartVO::getItemId).collect(Collectors.toSet());
-        // 2.查询商品
-//        //2.1、根据服务名称获取服务的实例列表
-//        List<ServiceInstance> instances = discoveryClient.getInstances("item-service");
-//        if(CollUtils.isEmpty(instances)){
-//            throw new BizIllegalException("查询商品信息失败");
-//        }
-//        //2.2、手写负载均衡，随机选择一个实例
-//        ServiceInstance instance = instances.get(RandomUtil.randomInt(instances.size()));
-//        String url = instance.getUri().toString();
-//        ResponseEntity<List<ItemDTO>> response = restTemplate.exchange(
-//                url + "/items?ids={ids}",
-//                HttpMethod.GET,
-//                null,
-//                new ParameterizedTypeReference<List<ItemDTO>>() {
-//                },
-//                Map.of("ids", CollUtils.join(itemIds, ","))
-//        );
-//        //解析响应
-//        if(!response.getStatusCode().is2xxSuccessful()){
-//            throw new BizIllegalException("查询商品信息失败");
-//        }
-//        List<ItemDTO> items = response.getBody();//拿到响应体
+
         List<ItemDTO> items = itemClient.queryItemsByIds(itemIds);
         if (CollUtils.isEmpty(items)) {
             return;

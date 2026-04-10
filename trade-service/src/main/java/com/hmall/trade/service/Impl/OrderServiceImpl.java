@@ -37,9 +37,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
 
     private final CartClient cartClient;
     private final ItemClient itemClient;
-//    private final IItemService itemService;
     private final IOrderDetailService detailService;
-//    private final ICartService cartService;
 
     @Override
     @Transactional
