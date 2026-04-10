@@ -499,3 +499,188 @@ com.hmall.common.exception.BizIllegalException: 用户密码错误
 15:37:36:427  INFO 9648 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@44692589[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 31]
 15:37:36:430  INFO 9648 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 15:37:36:479  INFO 9648 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+17:52:30:854  INFO 10864 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.30 on LuciFer with PID 10864 (D:\microService\hmall\user-service\target\classes started by 烽 in D:\microService\hmall)
+17:52:30:856 DEBUG 10864 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+17:52:30:857  INFO 10864 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
+17:52:31:789  INFO 10864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+17:52:31:791  INFO 10864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:52:31:819  INFO 10864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+17:52:32:074  INFO 10864 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=217dd168-7258-398f-b0b0-0b7a67958290
+17:52:32:503  INFO 10864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+17:52:32:509  INFO 10864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+17:52:32:510  INFO 10864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+17:52:32:698  INFO 10864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+17:52:32:698  INFO 10864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1796 ms
+17:52:38:002  INFO 10864 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+17:52:39:651  INFO 10864 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of fb9ae577-1301-4d59-b772-25c52e42e8b8
+17:52:39:688  INFO 10864 --- [main] org.reflections.Reflections              : Reflections took 20 ms to scan 1 urls, producing 3 keys and 6 values 
+17:52:39:709  INFO 10864 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 4 keys and 9 values 
+17:52:39:718  INFO 10864 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 3 keys and 10 values 
+17:52:39:721  WARN 10864 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+17:52:39:730  INFO 10864 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+17:52:39:740  INFO 10864 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 1 keys and 7 values 
+17:52:39:749  INFO 10864 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 2 keys and 8 values 
+17:52:39:752  WARN 10864 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+17:52:39:752  INFO 10864 --- [main] com.alibaba.nacos.common.remote.client   : [fb9ae577-1301-4d59-b772-25c52e42e8b8] RpcClient init label, labels = {module=naming, source=sdk}
+17:52:39:755  INFO 10864 --- [main] com.alibaba.nacos.common.remote.client   : [fb9ae577-1301-4d59-b772-25c52e42e8b8] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+17:52:39:755  INFO 10864 --- [main] com.alibaba.nacos.common.remote.client   : [fb9ae577-1301-4d59-b772-25c52e42e8b8] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+17:52:39:756  INFO 10864 --- [main] com.alibaba.nacos.common.remote.client   : [fb9ae577-1301-4d59-b772-25c52e42e8b8] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+17:52:39:757  INFO 10864 --- [main] com.alibaba.nacos.common.remote.client   : [fb9ae577-1301-4d59-b772-25c52e42e8b8] Try to connect to server on start up, server: {serverIp = '47.93.37.97', server main port = 8848}
+17:52:43:233  INFO 10864 --- [main] com.alibaba.nacos.common.remote.client   : [fb9ae577-1301-4d59-b772-25c52e42e8b8] Success to connect to server [47.93.37.97:8848] on start up, connectionId = 1775814768754_119.251.158.154_47638
+17:52:43:233  INFO 10864 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [fb9ae577-1301-4d59-b772-25c52e42e8b8] Notify connected event to listeners.
+17:52:43:234  INFO 10864 --- [main] com.alibaba.nacos.common.remote.client   : [fb9ae577-1301-4d59-b772-25c52e42e8b8] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+17:52:43:235  INFO 10864 --- [main] com.alibaba.nacos.common.remote.client   : [fb9ae577-1301-4d59-b772-25c52e42e8b8] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1095/0x0000000840708840
+17:52:43:300  INFO 10864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+17:52:43:328  INFO 10864 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.217.1:8084 register finished
+17:52:43:810  INFO 10864 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [fb9ae577-1301-4d59-b772-25c52e42e8b8] Receive server push request, request = NotifySubscriberRequest, requestId = 302
+17:52:43:813  INFO 10864 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [fb9ae577-1301-4d59-b772-25c52e42e8b8] Ack server push request, request = NotifySubscriberRequest, requestId = 302
+17:52:45:405  INFO 10864 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+17:52:45:406  INFO 10864 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+17:52:45:408  INFO 10864 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+17:52:45:425  INFO 10864 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+17:52:45:495  INFO 10864 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 17.804 seconds (JVM running for 20.205)
+17:53:16:912  INFO 10864 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:53:16:913  INFO 10864 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+17:53:16:917  INFO 10864 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+17:53:17:142  WARN 10864 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+17:53:17:142  INFO 10864 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+17:53:17:734  INFO 10864 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+17:53:17:743 DEBUG 10864 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+17:53:17:772 DEBUG 10864 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+17:53:17:822 DEBUG 10864 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+17:53:47:255  WARN 10864 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+17:53:47:256  WARN 10864 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+17:53:47:256  WARN 10864 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+17:53:47:256  WARN 10864 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+17:53:48:553  INFO 10864 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+17:53:48:576  INFO 10864 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+17:53:48:906  INFO 10864 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+17:53:48:906  INFO 10864 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@ab4a6fa[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+17:53:48:908  INFO 10864 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1775814768754_119.251.158.154_47638
+17:53:48:914  INFO 10864 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@38a858d9[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 27]
+17:53:48:919  INFO 10864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+17:53:48:969  INFO 10864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+19:09:26:957  INFO 33360 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.30 on LuciFer with PID 33360 (D:\microService\hmall\user-service\target\classes started by 烽 in D:\microService\hmall)
+19:09:26:959 DEBUG 33360 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+19:09:26:959  INFO 33360 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
+19:09:28:341  INFO 33360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+19:09:28:346  INFO 33360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+19:09:28:394  INFO 33360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+19:09:28:767  INFO 33360 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=217dd168-7258-398f-b0b0-0b7a67958290
+19:09:29:362  INFO 33360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+19:09:29:373  INFO 33360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+19:09:29:373  INFO 33360 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+19:09:29:655  INFO 33360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+19:09:29:656  INFO 33360 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2637 ms
+19:09:37:901  INFO 33360 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+19:09:41:567  INFO 33360 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+19:09:41:858  INFO 33360 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of ecd9f23c-a879-47cb-9d7e-b32056d77cb4
+19:09:41:926  INFO 33360 --- [main] org.reflections.Reflections              : Reflections took 37 ms to scan 1 urls, producing 3 keys and 6 values 
+19:09:41:973  INFO 33360 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
+19:09:41:991  INFO 33360 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
+19:09:41:995  WARN 33360 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+19:09:42:008  INFO 33360 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 1 keys and 5 values 
+19:09:42:024  INFO 33360 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 1 keys and 7 values 
+19:09:42:042  INFO 33360 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 2 keys and 8 values 
+19:09:42:046  WARN 33360 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+19:09:42:048  INFO 33360 --- [main] com.alibaba.nacos.common.remote.client   : [ecd9f23c-a879-47cb-9d7e-b32056d77cb4] RpcClient init label, labels = {module=naming, source=sdk}
+19:09:42:052  INFO 33360 --- [main] com.alibaba.nacos.common.remote.client   : [ecd9f23c-a879-47cb-9d7e-b32056d77cb4] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+19:09:42:052  INFO 33360 --- [main] com.alibaba.nacos.common.remote.client   : [ecd9f23c-a879-47cb-9d7e-b32056d77cb4] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+19:09:42:053  INFO 33360 --- [main] com.alibaba.nacos.common.remote.client   : [ecd9f23c-a879-47cb-9d7e-b32056d77cb4] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+19:09:42:056  INFO 33360 --- [main] com.alibaba.nacos.common.remote.client   : [ecd9f23c-a879-47cb-9d7e-b32056d77cb4] Try to connect to server on start up, server: {serverIp = '47.93.37.97', server main port = 8848}
+19:09:47:527 ERROR 33360 --- [main] c.a.n.c.remote.client.grpc.GrpcClient    : Server check fail, please check server 47.93.37.97 ,port 9848 is available , error ={}
+
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 7 milliseconds, 965800 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@478cc5f1[status=PENDING, info=[GrpcFuture{clientCall={delegate={delegate=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@613a608e, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@37b1218, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@575cfec1}}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:148) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:264) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.RpcClient.start(RpcClient.java:390) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.start(NamingGrpcClientProxy.java:96) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.<init>(NamingGrpcClientProxy.java:89) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.<init>(NamingClientProxyDelegate.java:76) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.NacosNamingService.init(NacosNamingService.java:95) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.NacosNamingService.<init>(NacosNamingService.java:81) ~[nacos-client-2.0.4.jar:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at com.alibaba.nacos.api.naming.NamingFactory.createNamingService(NamingFactory.java:59) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.api.NacosFactory.createNamingService(NacosFactory.java:77) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.cloud.nacos.NacosServiceManager.createNewNamingService(NacosServiceManager.java:99) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
+	at com.alibaba.cloud.nacos.NacosServiceManager.buildNamingService(NacosServiceManager.java:90) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
+	at com.alibaba.cloud.nacos.NacosServiceManager.getNamingService(NacosServiceManager.java:46) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:130) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.27.jar:5.3.27]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.user.UserApplication.main(UserApplication.java:11) ~[classes/:na]
+
+19:09:47:534  INFO 33360 --- [main] com.alibaba.nacos.common.remote.client   : [ecd9f23c-a879-47cb-9d7e-b32056d77cb4] Try to connect to server on start up, server: {serverIp = '47.93.37.97', server main port = 8848}
+19:09:48:279  INFO 33360 --- [main] com.alibaba.nacos.common.remote.client   : [ecd9f23c-a879-47cb-9d7e-b32056d77cb4] Success to connect to server [47.93.37.97:8848] on start up, connectionId = 1775819393605_119.251.158.154_47230
+19:09:48:280  INFO 33360 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [ecd9f23c-a879-47cb-9d7e-b32056d77cb4] Notify connected event to listeners.
+19:09:48:282  INFO 33360 --- [main] com.alibaba.nacos.common.remote.client   : [ecd9f23c-a879-47cb-9d7e-b32056d77cb4] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+19:09:48:283  INFO 33360 --- [main] com.alibaba.nacos.common.remote.client   : [ecd9f23c-a879-47cb-9d7e-b32056d77cb4] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1094/0x0000000840848040
+19:09:48:383  INFO 33360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+19:09:48:423  INFO 33360 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.217.1:8084 register finished
+19:09:48:925  INFO 33360 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [ecd9f23c-a879-47cb-9d7e-b32056d77cb4] Receive server push request, request = NotifySubscriberRequest, requestId = 314
+19:09:48:930  INFO 33360 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [ecd9f23c-a879-47cb-9d7e-b32056d77cb4] Ack server push request, request = NotifySubscriberRequest, requestId = 314
+19:09:50:214  INFO 33360 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+19:09:50:219  INFO 33360 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+19:09:50:247  INFO 33360 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+19:09:50:367  INFO 33360 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 26.973 seconds (JVM running for 29.29)
+19:10:20:100  INFO 33360 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:10:20:101  INFO 33360 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+19:10:20:102  INFO 33360 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+19:10:20:277  WARN 33360 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+19:10:20:278  INFO 33360 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+19:10:20:893  INFO 33360 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+19:10:20:902 DEBUG 33360 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+19:10:20:924 DEBUG 33360 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+19:10:20:972 DEBUG 33360 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+19:15:04:197  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ce0ab0d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:15:19:019  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@51645f94 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:19:57:996  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@40e8226d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:20:08:019  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@54e0d28a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:25:06:006  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3230dedd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:25:16:020  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5ecbc1e8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:25:16:022  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s955ms754µs300ns).
+19:30:02:233  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@41b1bd00 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:30:12:601  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ec2451d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:35:02:079  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1b06458 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:35:12:087  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3c460229 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:39:50:464  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@18e617d4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:40:00:481  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1ca72e30 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:44:31:801  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@23ababda (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:44:52:788  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1b72d63f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:49:18:152  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@323a4c19 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:49:33:370  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@c64fcdf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:54:06:649  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@40017dc2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:54:38:568  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@532b2cce (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:59:12:571  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@53a78fba (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+19:59:35:920  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1571c556 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+20:04:03:075  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4abb4652 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+20:04:17:402  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@750b87ee (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+20:08:54:464  WARN 33360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5e814ba8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+20:09:04:105  WARN 33360 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+20:09:04:105  WARN 33360 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+20:09:04:105  WARN 33360 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+20:09:04:106  WARN 33360 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+20:09:05:303  INFO 33360 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+20:09:05:335  INFO 33360 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+20:09:05:667  INFO 33360 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+20:09:05:668  INFO 33360 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@3202e1cc[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+20:09:05:668  INFO 33360 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1775819393605_119.251.158.154_47230
+20:09:05:672  INFO 33360 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@1bc6b217[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 733]
+20:09:05:679  INFO 33360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+20:09:15:694  INFO 33360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
