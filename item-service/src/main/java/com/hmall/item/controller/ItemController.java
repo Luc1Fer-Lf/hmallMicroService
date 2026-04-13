@@ -1,7 +1,6 @@
 package com.hmall.item.controller;
 
 
-import cn.hutool.core.thread.ThreadUtil;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hmall.common.domain.PageDTO;
 import com.hmall.common.domain.PageQuery;
@@ -38,7 +37,7 @@ public class ItemController {
     @GetMapping
     public List<ItemDTO> queryItemByIds(@RequestParam("ids") List<Long> ids){
         //模拟业务延迟
-        ThreadUtil.sleep(500);
+//        ThreadUtil.sleep(500);
         return itemService.queryItemByIds(ids);
     }
 

@@ -62,7 +62,7 @@ public class PayOrderServiceImpl extends ServiceImpl<PayOrderMapper, PayOrder> i
         if (!success) {
             throw new BizIllegalException("交易已支付或关闭！");
         }
-        // 5.修改订单状态
+        //TODO 5.修改订单状态
         tradeClient.markOrderPaySuccess(po.getBizOrderNo());
     }
 

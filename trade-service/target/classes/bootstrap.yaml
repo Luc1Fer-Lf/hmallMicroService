@@ -1,8 +1,8 @@
 server:
-  port: 8082
+  port: 8085
 spring:
   application:
-    name: cart-service # 服务名
+    name: trade-service # 服务名
   profiles:
     active: dev
   cloud:
